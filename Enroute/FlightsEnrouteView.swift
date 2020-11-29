@@ -21,6 +21,16 @@ struct FlightsEnrouteView: View {
     var body: some View {
         NavigationView {
             FlightList(flightSearch)
+                .navigationBarItems(trailing: filter)
+        }
+    }
+
+    @State var showFilter = false
+    var filter: some View {
+        Button("Filter") {
+            self.showFilter = true
+        }.sheet(isPresented: $showFilter) {
+            FilterFlights(filterSearch: self.$flightSearch, isPresented: self.$showFilter)
         }
     }
     

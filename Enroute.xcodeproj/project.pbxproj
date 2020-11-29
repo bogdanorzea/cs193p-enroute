@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43E4004D25732CC800CD5F6D /* FilterFlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E4004C25732CC800CD5F6D /* FilterFlights.swift */; };
 		DA47A9B32469D48100C8E13C /* Airlines.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA47A9B12469D48100C8E13C /* Airlines.swift */; };
 		DA47A9B42469D48100C8E13C /* Airports.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA47A9B22469D48100C8E13C /* Airports.swift */; };
 		DA47A9B62469D48900C8E13C /* FlightFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA47A9B52469D48900C8E13C /* FlightFetcher.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43E4004C25732CC800CD5F6D /* FilterFlights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterFlights.swift; sourceTree = "<group>"; };
 		DA47A9B12469D48100C8E13C /* Airlines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Airlines.swift; sourceTree = "<group>"; };
 		DA47A9B22469D48100C8E13C /* Airports.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Airports.swift; sourceTree = "<group>"; };
 		DA47A9B52469D48900C8E13C /* FlightFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightFetcher.swift; sourceTree = "<group>"; };
@@ -89,18 +91,19 @@
 		DAB658A22467944B00A0F2BB /* Enroute */ = {
 			isa = PBXGroup;
 			children = (
-				DAB658AA2467944B00A0F2BB /* FlightsEnrouteView.swift */,
-				DA47A9B52469D48900C8E13C /* FlightFetcher.swift */,
-				DA47A9B22469D48100C8E13C /* Airports.swift */,
 				DA47A9B12469D48100C8E13C /* Airlines.swift */,
-				DA47A9B92469E88100C8E13C /* FlightAware */,
-				DAB658BC246794A700A0F2BB /* FoundationExtensions.swift */,
-				DAB658AC2467944C00A0F2BB /* Assets.xcassets */,
+				DA47A9B22469D48100C8E13C /* Airports.swift */,
 				DAB658A32467944B00A0F2BB /* AppDelegate.swift */,
-				DAB658A52467944B00A0F2BB /* SceneDelegate.swift */,
-				DAB658B12467944C00A0F2BB /* LaunchScreen.storyboard */,
+				DAB658AC2467944C00A0F2BB /* Assets.xcassets */,
+				43E4004C25732CC800CD5F6D /* FilterFlights.swift */,
+				DA47A9B92469E88100C8E13C /* FlightAware */,
+				DA47A9B52469D48900C8E13C /* FlightFetcher.swift */,
+				DAB658AA2467944B00A0F2BB /* FlightsEnrouteView.swift */,
+				DAB658BC246794A700A0F2BB /* FoundationExtensions.swift */,
 				DAB658B42467944C00A0F2BB /* Info.plist */,
+				DAB658B12467944C00A0F2BB /* LaunchScreen.storyboard */,
 				DAB658AE2467944C00A0F2BB /* Preview Content */,
+				DAB658A52467944B00A0F2BB /* SceneDelegate.swift */,
 			);
 			path = Enroute;
 			sourceTree = "<group>";
@@ -140,7 +143,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = "Stanford University";
 				TargetAttributes = {
 					DAB6589F2467944B00A0F2BB = {
@@ -197,6 +200,7 @@
 				DA47A9B32469D48100C8E13C /* Airlines.swift in Sources */,
 				DA47A9B42469D48100C8E13C /* Airports.swift in Sources */,
 				DAB658A62467944B00A0F2BB /* SceneDelegate.swift in Sources */,
+				43E4004D25732CC800CD5F6D /* FilterFlights.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +244,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -300,6 +305,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
