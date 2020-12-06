@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4321C0C5257C54AF00F745C0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4321C0C4257C54AF00F745C0 /* MapView.swift */; };
 		439661FF2575F42000F63B6A /* Airline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439661FE2575F42000F63B6A /* Airline.swift */; };
 		439662022575F83300F63B6A /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439662012575F83300F63B6A /* Flight.swift */; };
 		43E4004D25732CC800CD5F6D /* FilterFlights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E4004C25732CC800CD5F6D /* FilterFlights.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4321C0C4257C54AF00F745C0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		439661FE2575F42000F63B6A /* Airline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airline.swift; sourceTree = "<group>"; };
 		439662012575F83300F63B6A /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
 		43E4004C25732CC800CD5F6D /* FilterFlights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterFlights.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				DAB658BC246794A700A0F2BB /* FoundationExtensions.swift */,
 				DAB658B42467944C00A0F2BB /* Info.plist */,
 				DAB658B12467944C00A0F2BB /* LaunchScreen.storyboard */,
+				4321C0C4257C54AF00F745C0 /* MapView.swift */,
 				DAB658AE2467944C00A0F2BB /* Preview Content */,
 				DAB658A52467944B00A0F2BB /* SceneDelegate.swift */,
 				43E400962575CE5100CD5F6D /* Enroute.xcdatamodeld */,
@@ -211,6 +214,7 @@
 				DAB658C2246794A800A0F2BB /* FoundationExtensions.swift in Sources */,
 				439661FF2575F42000F63B6A /* Airline.swift in Sources */,
 				DAB658C3246794A800A0F2BB /* FlightAware+AirportInfo.swift in Sources */,
+				4321C0C5257C54AF00F745C0 /* MapView.swift in Sources */,
 				43E400982575CE5100CD5F6D /* Enroute.xcdatamodeld in Sources */,
 				DAB658C5246794A800A0F2BB /* FlightAware+Enroute.swift in Sources */,
 				439662022575F83300F63B6A /* Flight.swift in Sources */,
